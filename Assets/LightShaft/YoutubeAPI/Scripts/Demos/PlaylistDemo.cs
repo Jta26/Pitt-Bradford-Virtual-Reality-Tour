@@ -10,6 +10,7 @@ public class PlaylistDemo : MonoBehaviour {
     public YoutubeVideoUi[] videoListUI;
     public GameObject videoUIResult;
     public GameObject mainUI;
+    public string PlaylistID;
 
     void Start()
     {
@@ -25,7 +26,6 @@ public class PlaylistDemo : MonoBehaviour {
 
     public void GetPlaylist()
     {
-        string PlaylistID = "PLvQtsJ2EI4Ad5zcBAQYOKQSckxIsWZwiB";
        youtubeapi.GetPlaylistItems(PlaylistID, 10, OnGetPlaylistDone);
     }
 

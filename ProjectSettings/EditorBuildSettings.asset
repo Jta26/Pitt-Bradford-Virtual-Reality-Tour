@@ -7,17 +7,37 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/VRScenes/Scenes/MainMenu.unity
+    guid: 3959fdef1e02d4d4fb01414c7de44414
   - enabled: 1
     path: Assets/VRScenes/Prefabs/Dorm2.unity
+    guid: 645612dd3def8184f9f51c04e82f27bc
   - enabled: 1
     path: Assets/VRScenes/Scenes/ArtClass.unity
+    guid: 986308b809ba9ef47906c8b9f58ddef2
   - enabled: 1
     path: Assets/VRScenes/Scenes/Townhouse.unity
+    guid: c5f428db50ddb874f8533ab3e97c9c42
   - enabled: 1
     path: Assets/VRScenes/Scenes/Basketball.unity
+    guid: b455d71dc6aacb6478d289bb30a0eafa
   - enabled: 1
     path: Assets/VRScenes/Scenes/CulturalFest.unity
+    guid: f7bbea60ae4053f4b8456570d3d79568
   - enabled: 1
     path: Assets/VRScenes/Scenes/Lab.unity
+    guid: 3da8ffb3c967b4d42a82541c00b780f0
   - enabled: 1
     path: Assets/VRScenes/Scenes/PantherShop.unity
+    guid: 75169425ca93f0348aa77ea4d17e61f6
+  - enabled: 1
+    path: Assets/VRAcademics.unity
+    guid: eb66e35e33730dd4aaf4d28a57360c0b
+  - enabled: 1
+    path: Assets/VRMisc.unity
+    guid: 7d8fb74aecfa40340a562c3e5385b5cf
+  - enabled: 1
+    path: Assets/VrSports.unity
+    guid: e6b21882f63a7be4da7e8980e8f2e762
+  - enabled: 1
+    path: Assets/VRResLife.unity
+    guid: d8d3d568bd7f61b47a466c646ce5073d

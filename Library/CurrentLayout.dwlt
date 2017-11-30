@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 63
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 64
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_ReferencingInstanceIDs: 
     m_ScenePaths: []
     m_ShowAllHits: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
     - Assets
   m_ViewMode: 1
@@ -332,13 +332,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 82
-  m_LastProjectPath: C:\Users\Joel\Pitt-Bradford-Virtual-Reality-Tour
+  m_LastProjectPath: G:\Users\jta26\Desktop\Pitt-Bradford-Virtual-Reality-Tour
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 0000000084280000dc2900005e2a00007a2a0000002b0000022b0000402c0000aa2c0000d42c00006c2d0000282e0000582e0000482f0000662f0000fe3000009c3300003c340000c43500000a360000da3a0000dc3a0000de3a0000e03a0000e23a000000ca9a3bffffff7f
+    m_SelectedIDs: 32500000
+    m_LastClickedID: 20530
+    m_ExpandedIDs: 00000000325000003e5100008e510000a85100001452000016520000f05200003e53000054530000ca5300003654000056540000e6540000fe5400001c560000dc5700004c5800001859000044590000e85c0000ea5c0000ec5c0000ee5c0000f05c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000084280000dc2900005e2a00007a2a0000002b0000022b0000402c0000aa2c0000d42c00006c2d0000282e0000582e0000482f0000662f0000fe3000009c3300003c340000c43500000a360000da3a0000dc3a0000de3a0000e03a0000e23a0000
+    m_ExpandedIDs: 00000000325000003e5100008e510000a85100001452000016520000f05200003e53000054530000ca5300003654000056540000e6540000fe5400001c560000dc5700004c5800001859000044590000e85c0000ea5c0000ec5c0000ee5c0000f05c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -410,7 +410,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -482,9 +482,9 @@ MonoBehaviour:
     height: 422
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 96310000
+    m_SelectedIDs: 64700000
     m_LastClickedID: 0
-    m_ExpandedIDs: 38d7ffff30dfffff4af5ffffa6fbffff00000000
+    m_ExpandedIDs: 40fdfcff8a07fdff6e28fdff985cfdffb865fdff046afdff0a6efdff1272fdffd230feff5a3ffeff4c52feff506afeff3273feffee7cfeffe8bafeff90bffeff6ac7fefff4cffeff560cffffb034ffff3e36ffffb078ffffd878ffff6479ffff608bffff000000002c5d0000665d0000785d00004669000080690000926900005e6e0000aa6e00008a700000307100004271000058710000e67100003c84000088840000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,7 +503,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - VRViewer
+  - VRAcademics
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -534,14 +534,14 @@ MonoBehaviour:
     width: 756
     height: 422
   m_SceneLighting: 1
-  lastFramingTime: 4711.010842129712
+  lastFramingTime: 1407.6967449703466
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 45.395573, y: -151.41881, z: 250.39423}
+    m_Target: {x: 1.7677743, y: 0.3465737, z: 1.091002}
     speed: 2
-    m_Value: {x: 45.395573, y: -151.41881, z: 250.39423}
+    m_Value: {x: 1.7677743, y: 0.3465737, z: 1.091002}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -564,13 +564,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.3227777, y: 0.09395694, z: -0.032222033, w: 0.9412484}
+    m_Target: {x: 0.19310115, y: 0.3483381, z: 0.07357072, w: -0.9143084}
     speed: 2
-    m_Value: {x: -0.3227777, y: -0.09395695, z: 0.032222036, w: -0.9412485}
+    m_Value: {x: 0.19310115, y: 0.3483381, z: 0.07357072, w: -0.9143084}
   m_Size:
-    m_Target: 369.70233
+    m_Target: 5.0703053
     speed: 2
-    m_Value: 369.70233
+    m_Value: 5.0703053
   m_Ortho:
     m_Target: 0
     speed: 2

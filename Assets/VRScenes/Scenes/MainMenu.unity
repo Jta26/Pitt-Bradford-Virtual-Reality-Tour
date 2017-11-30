@@ -819,7 +819,7 @@ Prefab:
       objectReference: {fileID: 1207963379}
     - target: {fileID: 11461874, guid: 8425dec361a86f6419d316a88d6c87d9, type: 2}
       propertyPath: m_SceneToLoad
-      value: ArtClass
+      value: VRResLife
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8247036, guid: 8425dec361a86f6419d316a88d6c87d9, type: 2}
@@ -1220,7 +1220,7 @@ Prefab:
       objectReference: {fileID: 1942867347}
     - target: {fileID: 11417264, guid: 904806be95c6f7644bf0c8303943662e, type: 2}
       propertyPath: m_SceneToLoad
-      value: CulturalFest
+      value: VRMisc
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8290214, guid: 904806be95c6f7644bf0c8303943662e, type: 2}
@@ -1844,7 +1844,7 @@ Prefab:
       objectReference: {fileID: 764291725}
     - target: {fileID: 11450468, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
       propertyPath: m_SceneToLoad
-      value: PantherShop
+      value: VRAcademics
       objectReference: {fileID: 0}
     - target: {fileID: 11480060, guid: 91b3bfdb6dd0b8847af2aed0f548e04a, type: 2}
       propertyPath: m_AnimTextures.Array.data[51]
@@ -2326,7 +2326,7 @@ Prefab:
       objectReference: {fileID: 1947940831}
     - target: {fileID: 11419562, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 2}
       propertyPath: m_SceneToLoad
-      value: Lab
+      value: VRSports
       objectReference: {fileID: 0}
     - target: {fileID: 8287798, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 2}
       propertyPath: MaxDistance
@@ -2683,6 +2683,27 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 465574, guid: 2dda78a7affe63a4d81e05200cc3429d, type: 2}
   m_PrefabInternal: {fileID: 1655933477}
+--- !u!1 &1751839529 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104168, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 2}
+  m_PrefabInternal: {fileID: 2126730144}
+--- !u!114 &1751839530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1751839529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadd54e4832aeef4b9359f44cbe335cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationRange: {x: 70, y: 70}
+  rotationSpeed: 10
+  dampingTime: 0.2
+  autoZeroVerticalOnMobile: 1
+  autoZeroHorizontalOnMobile: 0
+  relative: 1
 --- !u!1 &1808707146
 GameObject:
   m_ObjectHideFlags: 0
