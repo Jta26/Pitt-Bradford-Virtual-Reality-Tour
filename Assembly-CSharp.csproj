@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Hide.cs" />
      <Compile Include="Assets\LightShaft\Scripts\HighQualityPlayback.cs" />
      <Compile Include="Assets\LightShaft\Scripts\MultiVideoDemo.cs" />
      <Compile Include="Assets\LightShaft\Scripts\ReactingLights.cs" />
@@ -87,6 +86,7 @@
      <Compile Include="Assets\LightShaft\YoutubeSrc\Types.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\VideoInfo.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\VideoRequest.cs" />
+     <Compile Include="Assets\Scripts\Hide.cs" />
      <Compile Include="Assets\Scripts\InitOnStart.cs" />
      <Compile Include="Assets\Scripts\LoopHorizontalScrollRect.cs" />
      <Compile Include="Assets\Scripts\LoopScrollRect.cs" />
@@ -192,13 +192,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/Joel/Pitt-Bradford-Virtual-Reality-Tour/Assets/LightShaft/YoutubeAPI/UnityPackages/JsonNet/Newtonsoft.Json.dll</HintPath>
+ <HintPath>E:/Users/Chinelo/Documents/GitHub/Pitt-Bradford-Virtual-Reality-Tour/Assets/LightShaft/YoutubeAPI/UnityPackages/JsonNet/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/Joel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Users/Chinelo/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/Joel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/Chinelo/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

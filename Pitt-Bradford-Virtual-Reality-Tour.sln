@@ -1,11 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitt-Bradford-Virtual-Reality-Tour", "Pitt-Bradford-Virtual-Reality-Tour.csproj", "{85422791-999C-A7CF-9AFA-D099D89F85AA}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitt-Bradford-Virtual-Reality-Tour", "Assembly-CSharp.csproj", "{073E48F7-B87B-9630-EE71-F4396CB125CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitt-Bradford-Virtual-Reality-Tour.Plugins", "Pitt-Bradford-Virtual-Reality-Tour.Plugins.csproj", "{5923959A-5801-0F0A-8A7D-8826831ADEC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitt-Bradford-Virtual-Reality-Tour", "Assembly-CSharp-firstpass.csproj", "{2E42E078-6B95-9409-3356-72A520485CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitt-Bradford-Virtual-Reality-Tour.Editor", "Pitt-Bradford-Virtual-Reality-Tour.Editor.csproj", "{2F22EEF1-28E8-71E7-3DF9-B5FBF7097380}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitt-Bradford-Virtual-Reality-Tour", "Assembly-CSharp-Editor.csproj", "{EE65EAA1-2AB3-5EA2-7A03-40F55D2EF9FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{85422791-999C-A7CF-9AFA-D099D89F85AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85422791-999C-A7CF-9AFA-D099D89F85AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85422791-999C-A7CF-9AFA-D099D89F85AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85422791-999C-A7CF-9AFA-D099D89F85AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5923959A-5801-0F0A-8A7D-8826831ADEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5923959A-5801-0F0A-8A7D-8826831ADEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5923959A-5801-0F0A-8A7D-8826831ADEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5923959A-5801-0F0A-8A7D-8826831ADEC3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F22EEF1-28E8-71E7-3DF9-B5FBF7097380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F22EEF1-28E8-71E7-3DF9-B5FBF7097380}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F22EEF1-28E8-71E7-3DF9-B5FBF7097380}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F22EEF1-28E8-71E7-3DF9-B5FBF7097380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073E48F7-B87B-9630-EE71-F4396CB125CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073E48F7-B87B-9630-EE71-F4396CB125CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073E48F7-B87B-9630-EE71-F4396CB125CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073E48F7-B87B-9630-EE71-F4396CB125CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E42E078-6B95-9409-3356-72A520485CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E42E078-6B95-9409-3356-72A520485CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E42E078-6B95-9409-3356-72A520485CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E42E078-6B95-9409-3356-72A520485CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE65EAA1-2AB3-5EA2-7A03-40F55D2EF9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE65EAA1-2AB3-5EA2-7A03-40F55D2EF9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE65EAA1-2AB3-5EA2-7A03-40F55D2EF9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE65EAA1-2AB3-5EA2-7A03-40F55D2EF9FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

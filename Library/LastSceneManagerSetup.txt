@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/VRAcademics.unity
+- path: Assets/VRScenes/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1
