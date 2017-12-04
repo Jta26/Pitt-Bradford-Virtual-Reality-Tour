@@ -10,6 +10,7 @@ public class PlaylistDemo : MonoBehaviour {
     public YoutubeVideoUi[] videoListUI;
     public GameObject videoUIResult;
     public GameObject mainUI;
+    public GameObject camera;
     public string PlaylistID;
 
     void Start()
@@ -20,7 +21,7 @@ public class PlaylistDemo : MonoBehaviour {
         {
             youtubeapi = gameObject.AddComponent<YoutubeAPIManager>();
         }
-
+        
         GetPlaylist();
     }
 
@@ -45,5 +46,17 @@ public class PlaylistDemo : MonoBehaviour {
             videoListUI[x].GetComponent<YoutubeVideoUi>().thumbUrl = videoList[x].snippet.thumbnails.defaultThumbnail.url;
             videoListUI[x].GetComponent<YoutubeVideoUi>().LoadThumbnail();
         }
+    }
+    public void MoveCamera()
+    {
+        Vector3 posTrans = new Vector3(0, 0, 0);
+        camera.transform.position = posTrans;
+        
+        
+    }
+    public void MoveCameraBack()
+    {
+        Vector3 posTrans = new Vector3(0, 0, 0);
+        camera.transform.position = posTrans;
     }
 }

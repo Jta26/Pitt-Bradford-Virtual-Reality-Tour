@@ -10,6 +10,7 @@ public class YoutubeVideoUi : MonoBehaviour {
     public string videoId,thumbUrl;
     public Image videoThumb;
     private GameObject mainUI;
+    public GameObject videoPlayer;
     public void PlayYoutubeVideo()
     {
         //search for the low quality if not find search for highquality
