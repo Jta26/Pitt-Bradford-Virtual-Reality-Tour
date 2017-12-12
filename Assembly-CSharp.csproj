@@ -86,6 +86,7 @@
      <Compile Include="Assets\LightShaft\YoutubeSrc\Types.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\VideoInfo.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\VideoRequest.cs" />
+     <Compile Include="Assets\playerHide.cs" />
      <Compile Include="Assets\Scripts\Hide.cs" />
      <Compile Include="Assets\Scripts\InitOnStart.cs" />
      <Compile Include="Assets\Scripts\LoopHorizontalScrollRect.cs" />

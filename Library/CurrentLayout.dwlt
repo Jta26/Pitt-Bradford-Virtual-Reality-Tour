@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43
+    x: 8
+    y: 51
     width: 1536
     height: 781
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 77
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 326
     height: 443
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 1086
     height: 731
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 78
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 1086
     height: 443
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 79
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -309,14 +309,13 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 535
+    x: 8
+    y: 543
     width: 1084
     height: 267
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames:
-    - Scene
+    m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -325,19 +324,20 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders: []
+    m_Folders:
+    - Assets/VRScenes/Materials/Menu
   m_ViewMode: 1
   m_StartGridSize: 82
   m_LastFolders:
-  - Assets
+  - Assets/VRScenes/Materials/Menu
   m_LastFoldersGridSize: 82
-  m_LastProjectPath: G:\Users\jta26\Desktop\Pitt-Bradford-Virtual-Reality-Tour
+  m_LastProjectPath: E:\Users\Chinelo\Documents\GitHub\Pitt-Bradford-Virtual-Reality-Tour
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 0000000090370000083900008e3900003e3a0000403a0000463b0000923b0000043c0000323c0000d43c00009e3d0000d63d0000ca3e0000ea3e000062410000804300002a44000002450000d045000020460000f0490000f2490000f4490000f6490000f849000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 735.1}
+    m_SelectedIDs: e03f0000
+    m_LastClickedID: 16352
+    m_ExpandedIDs: 00000000da36000052380000d8380000883900008a390000903a0000dc3a0000503b00007e3b0000223c0000ec3c0000243d0000183e0000383e0000b0400000ce420000784300005044000020450000704500001a4900001c4900001e490000204900002249000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000090370000083900008e3900003e3a0000403a0000463b0000923b0000043c0000323c0000d43c00009e3d0000d63d0000ca3e0000ea3e000062410000804300002a44000002450000d045000020460000f0490000f2490000f4490000f6490000f8490000
+    m_ExpandedIDs: 00000000da36000052380000d8380000883900008a390000903a0000dc3a0000503b00007e3b0000223c0000ec3c0000243d0000183e0000383e0000b0400000ce420000784300005044000020450000704500001a4900001c4900001e4900002049000022490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 124}
     m_GridSize: 82
   m_DirectoriesAreaWidth: 247
 --- !u!114 &14
@@ -442,8 +442,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1088
-    y: 92
+    x: 1096
+    y: 100
     width: 448
     height: 710
   m_ScrollPosition: {x: 0, y: 0}
@@ -475,34 +475,34 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 92
+    x: 8
+    y: 100
     width: 324
     height: 422
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: ae420000
     m_LastClickedID: 0
-    m_ExpandedIDs: a4aef6ff96b8f6ffccc2f6ff10c4f6ffeac5f6ff1ad8f6ffd850f7ff9259f7ff6662f7fff470f7ff94a5f7ff885fffffc6a2ffff70b0ffff14bbffff40f8ffff000000005e460000aa460000b0530000fc530000de5b0000845c0000965c0000ac5c00003a5d000062b90000aeb90000bab9000098be000028bf00003ebf000050bf000066bf0000fcbf0000
+    m_ExpandedIDs: 80e6ffffdee7ffff74faffff00000000ee4c0000144d00003a4d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Canvas
-      m_OriginalName: Canvas
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 50768
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - VRResLife
+  - MainMenu
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -528,8 +528,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 328
-    y: 92
+    x: 336
+    y: 100
     width: 756
     height: 422
   m_SceneLighting: 1
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.0953465, y: 7.296045, z: 3.262001}
+    m_Target: {x: -4.697232, y: -1.6779861, z: 1.5191994}
     speed: 2
-    m_Value: {x: 2.0953465, y: 7.296045, z: 3.262001}
+    m_Value: {x: -4.697232, y: -1.6779861, z: 1.5191994}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -563,13 +563,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.012099682, y: -0.21096718, z: 0.002616401, w: -0.9774147}
+    m_Target: {x: -0.3187433, y: 0.5345702, z: -0.22750996, w: -0.748917}
     speed: 2
-    m_Value: {x: -0.012099683, y: -0.2109672, z: 0.0026164013, w: -0.9774148}
+    m_Value: {x: -0.3187433, y: 0.5345702, z: -0.22750996, w: -0.748917}
   m_Size:
-    m_Target: 13.237487
+    m_Target: 10.388201
     speed: 2
-    m_Value: 13.237487
+    m_Value: 10.388201
   m_Ortho:
     m_Target: 0
     speed: 2
